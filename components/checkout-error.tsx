@@ -1,14 +1,15 @@
 import { Alert } from "react-bootstrap";
 
-export function CheckoutError(){
-    return(
-       <div> <Alert variant="danger">
+export function CheckoutError() {
+  return (
+    <div>
+      {" "}
+      <Alert variant="danger">
         <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
         <p>
-          Change this and that and try again. Duis mollis, est non commodo
-          luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-          Cras mattis consectetur purus sit amet fermentum.
+          It would appear that our developer is too stupid to add a checkout.
         </p>
-      </Alert></div>
-    )
+      </Alert>
+    </div>
+  );
 }

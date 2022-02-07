@@ -2,43 +2,37 @@ import { Carousel } from "react-bootstrap";
 
 export function CarouselSlide() {
   return (
-    <div style={{ display: "block", width: 700, height: 400, padding: 30 }}>
-      <Carousel>
+    <div
+      style={{
+        width: 700,
+        height: 4000,
+        padding: 35,
+        margin: 50,
+        marginLeft: 400,
+      }}
+    >
+      <Carousel fade>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
-            alt="First slide"
-          />
+          <img className="d-block w-100" src="./jr1.jpg" alt="First slide" />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>WHAT I DID DO NOW?</h3>
+            <p>Durka Durka Durka Durka</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
-            alt="Second slide"
-          />
+          <img className="d-block w-100" src="./cm1.jpg" alt="Second slide" />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>SLeeeeeeeEEEEeeeeeeppppPPP</h3>
+            <p>ZZZZZZZZZZzzzzzzzzzzzz</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
-            alt="Third slide"
-          />
+          <img className="d-block w-100" src="./cm2.webp" alt="Third slide" />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>You gon' do em like that?</h3>
+            <p>Yep.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
